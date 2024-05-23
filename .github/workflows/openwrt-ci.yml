@@ -50,7 +50,7 @@ jobs:
           ./scripts/feeds install -a
 
       - name: Generate configuration file
-        run: sudo wget https://pwn.8688.uk/openwrt/710n/.config
+        run: sudo wget -O .config pwn.8688.uk/openwrt/wr703n.config
 
       - name: Download packages
         run: make download -j16
