@@ -65,7 +65,7 @@ jobs:
           ./scripts/feeds install -a
 
       - name: Generate configuration file
-        run: sudo wget -O .config pwn.8688.uk/openwrt/05251346
+        run: sudo wget -O .config pwn.8688.uk/openwrt/05251850
 
       - name: Download packages
         run: make download -j16
