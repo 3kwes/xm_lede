@@ -65,7 +65,7 @@ jobs:
           ./scripts/feeds install -a
 
       - name: Generate configuration file
-        run: sudo wget -O .config pwn.8688.uk/openwrt/u35f.config
+        run: sudo wget -O .config pwn.8688.uk/openwrt/u35fnowifi.config
 
       - name: Download packages
         run: make download -j16
